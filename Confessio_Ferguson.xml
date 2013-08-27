@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Saint Patrick's Confessio Verse</title>
+                <respStmt>
+                    <resp>Project Researchers</resp>
+                    <name>
+                        <persName>My Name</persName>
+                        <roleName>Researcher</roleName>
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <p>Studentsedition, <date when="2013-03">March 2013</date>.</p>
+            </editionStmt>
+            <publicationStmt>
+                <distributor>Trinity College Dublin</distributor>
+                <address>
+                <addrLine>College Green, Dublin 2  Irland</addrLine>
+                
+                </address>
+                <availability>
+                    <p>Freely available.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>
+                   The passages ending with (A) are from the Armagh Codex; those ending with (B) are from the Bodleian. 
+               </p>
+                <p>
+                    <bibl>Ferguson, Samuel, "On the Patrician Documents", Transactions of the Royal Irish Academy, 27, Polite Literature and Antiquities (1877-1886 [Read, Nov. 10, 1884 ; Jan. 12, 26; Feb. 9, 1885]), 71.</bibl>
+                </p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:lang="eng">
+            <head>The <hi xml:lang="lat">Confessio</hi> of Saint Patrick</head>
+            <lg n="1" type="stanza">
+                <l n="1">I, <persName>Patrick</persName>, sinner, most unlearned of all</l>
+                <l n="2">The Faithful, and of many most despised,</l>
+                <l n="3">Had, for my father, Deacon <persName>Calphurn</persName>, son</l>
+                <l n="4">Of Presbyter <persName>Potitus</persName>, of a place</l>
+                <l n="5">Called <placeName>Bannow of Tabernia</placeName>, near whereto</l>
+                <l n="6">He owned his country dwelling; and 'twas there</l>
+                <l n="7">I suffered capture, then not full sixteen.</l>
+            </lg>
+            <lg n="2" type="stanza">
+                <l n="1">I knew not the true God; and, led away</l>
+                <l n="2">Into captivity, with thousands more,</l>
+                <l n="3">Was brought to <placeName>Ireland</placeName> - fate too well deserved.</l>
+            </lg>
+            </div>
+        </body>
+        <back>
+            <div>
+            <listBibl>
+                <head>Bibliography</head>
+                <bibl xml:id="Bieler1956-1957" type="Article">
+                    <author>
+                        <name>
+                            <surname>Bieler</surname>
+                            <forename>Ludwig</forename>
+                        </name>
+                    </author>
+                    <title level="a">St Secundinus and Armagh</title>
+                    <title level="j">Seanchas Ardmhacha: Journal of the Armagh Diocesan Historical Society</title>
+                    <date from="1956" to="1957">1956-1957</date>
+                    <biblScope type="vol">2, No. 1</biblScope>
+                    <biblScope type="pp">1-31</biblScope>
+                    <ref target="http://www.jstor.org/stable/29740619">JSTOR</ref>
+                </bibl>
+                <bibl xml:id="OLoughlin2000" type="Book">
+                    <author>
+                        <name>
+                            <forename>Thomas</forename>
+                            <surname>O'Loughlin</surname>
+                        </name>
+                    </author>
+                    <date when="2000">2000</date>
+                    <title level="m">Celtic Theology: Humanity, World and God in Early Irish Writings</title>
+                </bibl>
+                <bibl xml:id="White1920" type="Book">
+                    <author>
+                        <name>
+                            <surname>White</surname>
+                            <forename>Newport J.D.</forename>
+                        </name>
+                    </author>
+                    <date when="1920">1920</date>
+                    <title level="m">St Patrick: His Writings and Life</title>
+                </bibl>
+                <bibl xml:id="Binchy1962" type="Article">
+                    <author>
+                        <name>
+                            <surname>Binchy</surname>
+                            <forename>Daniel Anthony</forename>
+                        </name>
+                    </author>
+                    <title level="a">St Patrick and his Biographers: Ancient and Modern</title>
+                    <title level="j">Studia Hibernica</title>
+                    <date when="1962">1962</date>
+                    <biblScope type="vol">2</biblScope>
+                    <biblScope type="pp">7-173</biblScope>
+                    <ref target="http://www.jstor.org/stable/20495717">JSTOR</ref>
+                </bibl>
+                <bibl xml:id="Bieler1961-1962" type="Article">
+                    <author>
+                        <name>
+                            <surname>Bieler</surname>
+                            <forename>Ludwig</forename>
+                        </name>
+                    </author>
+                    <title level="a">Patriciology: Reflections on the Present State of Patrician Studies</title>
+                    <title level="j">Seanchas Ardmhacha: Journal of the Armagh Diocesan Historical Society</title>
+                    <date from="1961" to="1962">1961-1962</date>
+                    <biblScope type="vol">Patrician Year</biblScope>
+                    <biblScope type="pp">9-36</biblScope>
+                    <ref target="http://www.jstor.org/stable/29744761">JSTOR</ref>
+                </bibl>
+                <bibl xml:id="Graves1845-1847" type="Article">
+                    <author>
+                        <name>
+                            <surname>Graves</surname>
+                            <forename>Charles</forename>
+                        </name>
+                    </author>
+                    <date from="1845" to="1847">1845-1847</date>
+                    <title level="a">On the Date of the MS. Called the Book of Armagh</title>
+                    <title level="j" key="PRIA">Proceedings of the Royal Irish Academy (PRIA)</title>
+                    <biblScope type="vol">3</biblScope>
+                    <biblScope type="pp">316-324; 355-359</biblScope>
+                    <ref target="http://www.jstor.org/stable/20489602">JSTOR</ref>
+                </bibl>
+                <bibl xml:id="Stokes1888b" type="Article">
+                    <author>
+                        <name>
+                            <surname>Stokes</surname>
+                            <forename>Whitley</forename>
+                        </name>
+                    </author>
+                    <author>
+                        <name>
+                            <surname>MacCarthy</surname>
+                            <forename>B.</forename>
+                            <forename/>
+                        </name>
+                    </author>
+                    <date when="1888">1888</date>
+                    <title level="a">The Tripartite Life of St Patrick' (correspondence)</title>
+                    <title level="j">Academy</title>
+                    <biblScope type="vol">33; 34</biblScope>
+                    <biblScope type="pp">447-449; 10-11, 73, 138-139, 172-173</biblScope>
+                   </bibl>
+                <bibl xml:id="Bieler1993" type="Book">
+                    <editor>
+                        <name>
+                            <surname>Bieler</surname>
+                            <forename>Ludwig</forename>
+                        </name>
+                    </editor>
+                    <publisher>Royal Irish Academy</publisher>
+                    <pubPlace>Dublin</pubPlace>
+                    <date when="1993">1993</date>
+                    <title level="m">Libri Epistolarum Sancti Patricii Episcopi: Introduction, Text and Commentary</title>
+                    <title level="s">Royal Irish Academy Dictionary of Medieval Latin from Celtic Sources, Ancillary Publications IV = Clavis Patricii II</title>
+                 </bibl>
+                <bibl xml:id="Holland2004" type="Book">
+                    <author>
+                        <name>
+                            <surname>Holland</surname>
+                            <forename>Martin</forename>
+                        </name>
+                    </author>
+                    <editor>
+                        <name>
+                            <surname>MacShamhráin</surname>
+                            <forename>Ailbhe</forename>
+                        </name>
+                    </editor>
+                    <publisher>Four Courts Press</publisher>
+                    <pubPlace>Dublin</pubPlace>
+                    <date when="2004">2004</date>
+                    <title level="a">The mission of St Patrick &amp; church reform</title>
+                    <title level="m">The Island of St Patrick: Church and Ruling Dynasties in Fingal and Meath 400-1148</title>
+                    </bibl>
+                <bibl xml:id="Ferguson1885" type="Article">
+                    <author>
+                        <name>
+                            <surname>Ferguson</surname>
+                            <forename>Samuel</forename>
+                        </name>
+                    </author>
+                    <publisher>Sealy, Bryers and Walker</publisher>
+                    <pubPlace>Dublin</pubPlace>
+                    <publisher>George Bell and Sons</publisher>      
+                    <pubPlace>London</pubPlace>
+                    <date from="1877" to="1886">1877-1886 [Read, Nov. 10, 1884 ; Jan. 12, 26; Feb. 9, 1885]</date>
+                    <title level="a">On the Patrician Documents</title>
+                    <title level="j">Transactions of the Royal Irish Academy</title>
+                    <biblScope type="vol">27, Polite Literature and Antiquities</biblScope>
+                    <biblScope type="pp">67-134</biblScope>
+                    <ref target="http://www.jstor.org/stable/30078804">JSTOR</ref>
+                   </bibl>
+                
+                
+            </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>
